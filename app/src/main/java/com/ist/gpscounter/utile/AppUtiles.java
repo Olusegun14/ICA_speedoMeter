@@ -16,6 +16,7 @@ public class AppUtiles {
     public static boolean isRegister=false;
     public static boolean lastScreenFinish=false;
     public static LatLng curtLatlng,propertyLatlng;
+    static short x;
 
 
     public static boolean isOnline(Context context) {
