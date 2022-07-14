@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.ist.gpscounter.R;
+
 public class caloriesTrackerActivity extends AppCompatActivity {
 
     @Override
