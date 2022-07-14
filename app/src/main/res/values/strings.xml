@@ -2,22 +2,12 @@
 <resources>
 
 
-    <string name="account_id_and_passcode_is_required_for_clevertap">Account Id and Passcode is required for logging Clevertap Analytics</string>
-    <string name="active_plan">Your active plan is</string>
     <string name="age">Your age</string>
-    <string name="age_control">You are not allow to watch this video due to parental control</string>
-    <string name="age_control_trailer">You are not allow to watch this trailer due to parental control</string>
-    <string name="age_must_be_18">Your should be 16 or more than 16+</string>
-    <string name="all_content_you_have_not_specifically_restricted_below_will_be_available">All content you have not specifically restricted below will be available.</string>
+
     <string name="allready_hv_an_account">Already have an account?</string>
-    <string name="amount_with_rupee_symbol">₹%s</string>
+
     <string name="app_name">GPS SpeedoMeter</string>
-    <string name="assist">Assist</string>
-    <string name="assist_logo">Paytm Logo</string>
-    <string name="back_button_warning">"Please don't hit the back button until the action is complete."</string>
-    <string name="banks_supported"> supported banks</string>
-    <string name="boom">Boom</string>
-    <string name="bottomsheet_action_expand_halfway">Expand halfway</string>
+
     <string name="cancel">Cancel</string>
     <string name="cancel_confirmation">Are you sure you want to cancel this transaction?</string>
     <string name="card_content_descriptor">card</string>
@@ -310,20 +300,7 @@
     <string name="payu_submitting_otp">Submitting OTP</string>
     <string name="payu_subscription_details">SUBSCRIPTION DETAILS</string>
 
-    <string name="pg_12">PG(+12)</string>
 
-    <string name="please_enter_amount">Please enter amount</string>
-    <string name="please_provide_merchant_key_in_manifest">Please provide merchant key through config.Use setMerchantKey method of UpiConfig</string>
-    <string name="prefer_extension_decoders">Prefer extension decoders</string>
-    <string name="preferred_options">Please select your preferred option</string>
-    <string name="privacy">Privacy</string>
-    <string name="privacy_policy">Privacy Policy</string>
-    <string name="proceed_to_pay">Proceed to Pay</string>
-    <string name="processing">Processing</string>
-    <string name="profile">Profile</string>
-    <string name="progress">"Please wait,
- processing your request"</string>
-    <string name="r_18">R (18+)</string>
     <string name="random_abr">Enable random ABR</string>
     <string name="rate_us">Rate us</string>
     <string name="rated">Rated</string>
@@ -366,8 +343,7 @@
     <string name="status_unknown_redirect_to_merchant">The bank could not verify the transaction at this time. Redirecting you back to the merchant...</string>
     <string name="storage_permission_denied">Permission to access storage was denied</string>
     <string name="story_line">Story line</string>
-    <string name="sub_msg">"SUBSCRIBE TO CONTINUE
-कृपया सब्सक्राइब करें"</string>
+
     <string name="submit">Submit</string>
     <string name="submit_button">Submit</string>
     <string name="submit_otp">Waiting to detect OTP (One Time Password)</string>
@@ -377,26 +353,17 @@
     <string name="subscribe">Subscribe</string>
     <string name="subscription_plan">Subscription plan</string>
     <string name="successfully_register">Successfully register</string>
-    <string name="surepay_js">"function surePayData(){var list = document.getElementsByTagName(\"input\"); var map = {};
-                    for(var i =0;i&lt;list.length;i++) {if(list[i].type=='hidden')
-                    map[list[i].name]=list[i].value;} PayU.surePayData(JSON.stringify(map));};
-                    surePayData();"</string>
+
     <string name="tap_to_pause">Tap to Pause</string>
     <string name="tap_to_submit">Tap to Submit OTP</string>
     <string name="terms_and_condition">Terms &amp; Conditions</string>
     <string name="text_or">or</string>
-    <string name="to_subscribe_msg">"Choose one of our flexible plans to Enjoy Boom Movies to the fullest!
-बूम मूवीज ऍप का पूरा मज़्ज़ा उठाने के लिए पहले कृपया सब्सक्राइब करें"</string>
+
     <string name="toolbar_toast_text">Toolbar Clicked with URL: %s</string>
     <string name="total_interest_charged">Total Interest charged = Rs. %s</string>
     <string name="track_selection_title">Select tracks</string>
     <string name="trailers_and_cuts">Trailer &amp; Cuts</string>
-    <string name="ua13">U/A 13+</string>
-    <string name="ua13_desc">Restricted content suitable for 13 year or more than 13</string>
-    <string name="ua16">U/A 16+</string>
-    <string name="ua16_desc">Restricted content suitable for 16 year or more than 16</string>
-    <string name="ua7">U/A 7+</string>
-    <string name="ua7_desc">Restricted content suitable for 7 year or more than 7</string>
+
     <string name="unexpected_intent_action">Unexpected intent action: %1$s</string>
     <string name="unknown_toast_text">Unknown Action Clicked with URL: %s</string>
     <string name="update_success">Updated Successfully</string>
@@ -426,7 +393,7 @@
     <string name="mobile_number">Mibile Number</string>
     <string name="search_location">Search Location</string>
     <string name="maps_key">AIzaSyAieN_I41cShxtoU9zw0k3LU6maMiSgPjE</string>
-<!--    <string name="maps_key"></string>-->
+    <!--    <string name="maps_key"></string>-->
 
     <string name="max_speed">Max Speed</string>
     <string name="average_speed">Average Speed</string>

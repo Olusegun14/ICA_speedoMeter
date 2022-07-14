@@ -112,7 +112,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/margin_8"
                     android:layout_weight="1.0"
-                    android:hint="@string/mobile_number"
+                    android:hint="mobile_number"
                     android:textColorHint="@color/white"
                     app:boxStrokeColor="@color/main"
                     app:boxStrokeWidthFocused="@dimen/margin_2"

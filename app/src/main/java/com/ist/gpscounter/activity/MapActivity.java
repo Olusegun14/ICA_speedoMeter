@@ -63,7 +63,7 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
     GpsLocationTracker gpsLocation;
     public static final int PERMISSIONFINELOCATED = 99;
     public LocationCallback callback;
-    TextView tvlat, tvlot, tvalt, tvspeed,tvdistance;
+    TextView tvlat, tvlot, tvalt, tvspeed;
 
 
     //calss varibles
@@ -84,7 +84,7 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         tvlot = findViewById(R.id.longvalue);
         tvalt = findViewById(R.id.altvalue);
         tvspeed = findViewById(R.id.speedvalue);
-        tvdistance = findViewById(R.id.distanceVal);
+       // tvdistance = findViewById(R.id.distanceVal);
 
 
         mapView = findViewById(R.id.mapview);
@@ -172,18 +172,8 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         CameraUpdate camPosition = CameraUpdateFactory.newLatLngZoom(latLng,16);
         mMap.animateCamera(camPosition);
 
-        Geocoder geocoder = new Geocoder(MapActivity.this);
-        try{
-
-            List<Address> addresses = geocoder.getFromLocation(location.getLatitude(),location.getLongitude(),1);
-            tvdistance.setText(addresses.get(0).getAddressLine(0));
-        } catch (IOException e) {
-            e.printStackTrace();
-
-        }
 
 
-       // tvGO.setText(String.valueOf(location.getLatitude()));
     }
 
     @Override
