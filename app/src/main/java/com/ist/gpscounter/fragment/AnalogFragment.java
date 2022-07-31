@@ -35,6 +35,8 @@ import com.ist.gpscounter.activity.MapActivity;
 import java.util.Objects;
 
 import in.unicodelabs.kdgaugeview.KdGaugeView;
+
+import com.ist.gpscounter.activity.caloriesTrackerActivity;
 import com.ist.gpscounter.databinding.FragmentAnalogBinding;
 
 public class AnalogFragment extends Fragment {
@@ -64,6 +66,10 @@ public class AnalogFragment extends Fragment {
             startActivity(new Intent(getActivity(), MapActivity.class));
         });
 
+        binding.GoToCalories.setOnClickListener(view -> {
+
+            startActivity(new Intent(getActivity(), caloriesTrackerActivity.class));
+        });
 
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(getActivity());
         getLastLocation();
